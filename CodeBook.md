@@ -11,33 +11,33 @@ Finally a Fast Fourier Transform (FFT) was applied to some of these signals prod
 
 These signals were used to estimate variables of the feature vector for each pattern: '-XYZ' is used to denote 3-axial signals in the X, Y and Z directions.
 
-tBodyAcc-XYZ
-tGravityAcc-XYZ
-tBodyAccJerk-XYZ
-tBodyGyro-XYZ
-tBodyGyroJerk-XYZ
-tBodyAccMag
-tGravityAccMag
-tBodyAccJerkMag
-tBodyGyroMag
-tBodyGyroJerkMag
-fBodyAcc-XYZ
-fBodyAccJerk-XYZ
-fBodyGyro-XYZ
-fBodyAccMag
-fBodyAccJerkMag
-fBodyGyroMag
-fBodyGyroJerkMag
+* tBodyAcc-XYZ
+* tGravityAcc-XYZ
+* tBodyAccJerk-XYZ
+* tBodyGyro-XYZ
+* tBodyGyroJerk-XYZ
+* tBodyAccMag
+* tGravityAccMag
+* tBodyAccJerkMag
+* tBodyGyroMag
+* tBodyGyroJerkMag
+* fBodyAcc-XYZ
+* fBodyAccJerk-XYZ
+* fBodyGyro-XYZ
+* fBodyAccMag
+* fBodyAccJerkMag
+* fBodyGyroMag
+* fBodyGyroJerkMag
 
 The set of variables that were estimated from these signals are:
 
-mean(): Mean value
-std(): Standard deviation
+* mean(): Mean value
+* std(): Standard deviation
 
 The set of variables that are idetifying the subject and activity:
 
-subject: Each row identifies the subject who performed the activity for each window sample. Its range is from 1 to 30
-activity: Exch row identifies each activity each person performed within one of six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING)
+* subject: Each row identifies the subject who performed the activity for each window sample. Its range is from 1 to 30
+* activity: Exch row identifies each activity each person performed within one of six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING)
 
 
 #### Measurement Units
@@ -49,7 +49,7 @@ The angular velocity vector measured by the gyroscope for each window sample. Th
 
 ### Information about the summary choices
 
-The obtained datasets, the training and the test sets, are merged to create one data set and extracts only the measurements on the mean and standard deviation for each measurement, and the average of each variable for each activity and each subject are summarised.
+The obtained datasets, the training and the test sets, are merged to create one data set. Then extracted only the measurements on the mean and standard deviation for each measurement. Finally, the average of each variable for each activity and each subject are summarised.
 
 
 ### Information about the experimental study design

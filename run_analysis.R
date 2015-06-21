@@ -11,7 +11,7 @@
 ## Download and list files in the zip data file
 ##   zipFile: downloaded zip data file name
 ##   fileList: list of files in zipFile
-# Uncomment below 3 lines if the zip data file is not downloaded
+# Uncomment below 3 lines if the zip data file was not downloaded
 #zipFileURL <- "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
 #cat("Downloading the zip data file...")
 #download.file(zipFileURL, destfile = "UCI_HAR_Dataset.zip", method = "curl")
